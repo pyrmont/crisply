@@ -299,6 +299,15 @@ footer a:hover {
 		padding: 0 2.5em 2em 2.5em;
 	}
 }
+/* Very Small Screens */
+@media only screen and (max-width: 600px) {
+	#content {
+		padding: 2em 1em 1em 1em;
+	}
+	footer {
+		padding: 0 1em 2em 1em;
+	}
+}
 /* Tiny Screens */
 @media only screen and (max-width: 320px) {
 	header {
